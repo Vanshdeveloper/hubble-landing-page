@@ -254,7 +254,7 @@
 /* Footer */
 
 footer{
-    padding: 160px 100px;
+    padding: 100px 40px 0 40px;
     background: var(--VeryDarkCyan);
     display: flex;
     justify-content: space-evenly;
@@ -414,6 +414,20 @@ footer .instagram:hover{
     color: var(--Pink);
     background: var(--VeryDarkCyan);
     border: 2px solid var(--Pink);
+}
+
+.copyright{
+    height: 100%;
+    padding: 50px;
+    background: var(--VeryDarkCyan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright p{
+    color: #ffffff;
+    font-family: var(--fontPop);
 }
 
 @media (max-width: 1200px) {
@@ -660,5 +674,11 @@ footer .instagram:hover{
         align-items: center;
         justify-content: center;
         gap: 20px;
+    }
+
+    .copyright p{
+        text-align: center;
+        color: #ffffff;
+        font-family: var(--fontPop);
     }
 }
